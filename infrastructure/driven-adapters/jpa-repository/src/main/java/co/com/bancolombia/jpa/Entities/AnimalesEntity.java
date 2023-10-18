@@ -15,7 +15,7 @@ import javax.persistence.Id;
 
 public class AnimalesEntity {
     @Id private String id;
-    @Column private int numeropatas;
+    @Column private int numPatas;
     @Column private char genero;
     @Column private String especie;
     @Column private String habitat;
